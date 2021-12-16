@@ -1,0 +1,41 @@
+$primary-color: #8d5da7;
+
+.your-apps {
+  background-color: #fafafced;
+  h3 {
+    color: $primary-color;
+  }
+  ul {
+    list-style: none;
+    li {
+      .icon {
+        width: 3.125rem;
+        height: 3.125rem;
+        box-shadow: 0.1875rem 0.125rem 0.5625rem 0 #bfbfbf;
+        margin-left: 1.25rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+    }
+  }
+  .zid_app {
+    position: relative;
+    z-index: 10;
+    .Dot_pattern {
+      position: absolute;
+      top: -14px;
+      left: -34px;
+      z-index: -1;
+    }
+    .yellow_ellipse {
+      position: absolute;
+      bottom: -45px;
+      right: -30px;
+      z-index: -1;
+      width: 300px;
+    }
+  }
+}

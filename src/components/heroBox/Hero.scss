@@ -1,0 +1,21 @@
+$primary-color: #8d5da7;
+.hero_box {
+  h1 {
+    color: $primary-color;
+  }
+
+  p {
+    width: 512.44px;
+    margin: 0 auto;
+    line-height: 34px;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  button {
+    background-color: $primary-color;
+    color: #fdb515;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,28 @@
+$primary-color: #8d5da7;
+.app-item {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  .kumra {
+    color: $primary-color;
+  }
+  .num {
+    color: #45a787;
+    font-size: 14px;
+  }
+  .develop-content {
+    font-size: 13px;
+    .develop {
+      color: #6d6d6d;
+      font-size: 13px;
+    }
+  }
+
+  .dev-p {
+    font-size: 12px;
+    width: 100%;
+    letter-spacing: -1px;
+  }
+}
+.gold-color {
+  color: #fdb515;
+}
